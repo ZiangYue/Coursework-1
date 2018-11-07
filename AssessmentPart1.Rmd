@@ -16,10 +16,15 @@ plot(cars)
 ```
 
 ```{r}
+install.packages("tidyverse")
 library(tidyverse)
+install.packages("geojsonio")
 library(geojsonio)
+install.packages("sf")
 library(sf)
+install.packages("tmap")
 library(tmap)
+install.packages("tmaptools")
 library(tmaptools)
 #read some data attributes
 LondonData <- read_csv("https://files.datapress.com/london/dataset/ward-profiles-and-atlas/2015-09-24T14:21:24/ward-profiles-excel-version.csv", na = "n/a")
