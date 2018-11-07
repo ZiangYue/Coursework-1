@@ -41,7 +41,7 @@ qtm(LondonMapSF, fill = "% Not Born in UK - 2011")
 ```
 
 ```{r}
-library(tidyverse)
+2+3
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
